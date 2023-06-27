@@ -1,15 +1,17 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <a class="navbar-brand" href="#">
-    <img src="/assets/NovelKeys_Logo.webp" class= "img-fluid" alt="NovelKeys Logo" width="325" height="58">
-  </a>
+<nav class="navbar navbar-expand-sm bg-body-tertiary">
+  <div>
+    <a class="navbar-brand" href="NovelKeys">
+      <img src="/assets/NovelKeys_Logo.webp" class= "img-fluid" alt="NovelKeys Logo" width="200" height="40">
+    </a>
+  </div>
   <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+    </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="nav nav-pills">
+        <ul class="nav nav-underline">
           <li class="nav-item">
-            <a class="nav-link text-black">Keyboards</a>
+            <a class="nav-link" routerLink="/keyboards">Keyboards</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -25,18 +27,42 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Switches</a>
+            <a class="nav-link" routerLink="/switches">Switches</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">TFUE</a>
+            <a class="nav-link" routerLink="tfue">TFUE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Deskpads</a>
+            <a class="nav-link" routerLink="deskpads">Deskpads</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Supplies</a>
-          </li><li class="nav-item">
-            <a class="nav-link" href="#">Merch!</a>
+            <a class="nav-link" routerLink="supplies">Supplies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="merch">Merch!</a>
+          </li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              <svg class="bi" width="24" height="24" color="black">
+                <use xlink:href="./assets/bootstrap-icons.svg#search"/>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              <svg class="bi" width="24" height="24" color="black">
+                <use xlink:href="./assets/bootstrap-icons.svg#person"/>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              <svg class="bi" width="24" height="24" color="black">
+                <use xlink:href="./assets/bootstrap-icons.svg#bag"/>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
