@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -14,6 +15,7 @@ import { DeskpadsPageComponent } from './additional pages/deskpads-page/deskpads
 import { SuppliesPageComponent } from './additional pages/supplies-page/supplies-page.component';
 import { MerchPageComponent } from './additional pages/merch-page/merch-page.component';
 import { AppRoutingModule } from './app-routing.module';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -29,11 +31,13 @@ import { AppRoutingModule } from './app-routing.module';
     DeskpadsPageComponent,
     SuppliesPageComponent,
     MerchPageComponent,
-    HomeComponent
+    HomeComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
