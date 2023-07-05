@@ -1,7 +1,20 @@
 .card{
-
     margin-top: 100px;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
+}
+.custom-badge{
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    color: #49a339;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    margin: 0;
+    font-size: medium;
 }
