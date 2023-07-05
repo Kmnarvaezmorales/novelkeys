@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { BannerComponent } from './banner/banner.component';
 import { CardsComponent } from './cards/cards.component';
@@ -17,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
     HeaderComponent,
     BannerComponent,
     CardsComponent,
@@ -26,7 +28,8 @@ import { AppRoutingModule } from './app-routing.module';
     TfuePageComponent,
     DeskpadsPageComponent,
     SuppliesPageComponent,
-    MerchPageComponent
+    MerchPageComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
