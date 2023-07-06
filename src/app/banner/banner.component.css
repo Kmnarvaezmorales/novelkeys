@@ -1,3 +1,33 @@
 .container-fluid{
     padding: 0%;
 }
+.banner-button{
+    background-color:#0099db;
+    color: white;
+    font-size: medium;
+    font:bolder;
+    width: 170px;
+    height: 45px;
+    position: relative;
+    bottom: 150px;
+    left: 150px;
+    margin: 0;
+}
+.custom-text{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    margin: 0;
+    color: white;
+    font-size: larger;
+    font-weight: 1000;
+}
+.custom-text-two{
+    position: absolute;
+    top: 275px;
+    left: 150px;
+    margin: 0;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}

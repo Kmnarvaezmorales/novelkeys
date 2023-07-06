@@ -2,17 +2,20 @@ export const mock_product_list = [
     {
         img: "./assets/NK_StarWars_Tatooine_tile_2048x.webp",
         title: "SA Tatooine $250",
-        description: "ABS Double-Shot Keycaps"
+        description: "ABS Double-Shot Keycaps",
+        stock: "IN STOCK"
     },
     {
         img: "./assets/PBT_Olivia_Tile_2048x.webp",
         title: "Cherry Olivia $95",
-        description: "PBT Dyesub Keycaps"
+        description: "PBT Dyesub Keycaps",
+        stock: "IN STOCK"
     },
     {
         img: "./assets/Spellbook_16x9-Tile_2048x.webp",
         title: "Cherry Spellbook $95",
-        description: "PBT Dyesub Keycaps"
+        description: "PBT Dyesub Keycaps",
+        stock: "IN K"
     }
     
     // {

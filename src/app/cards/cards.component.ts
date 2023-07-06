@@ -10,12 +10,12 @@ export class CardsComponent {
   @Input() img: string;
   @Input() title: string;
   @Input() description: string;
-  @Input() badge: string;
+  @Input() stock: string;
 
   constructor(){
     this.img = "";
     this.title = "";
     this.description = "";
-    this.badge = "";
+    this.stock = "";
   }
 }
